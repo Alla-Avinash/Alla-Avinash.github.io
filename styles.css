@@ -1,0 +1,48 @@
+/* for Selecting Elements */
+
+
+/* for all the divs */
+div{
+    background: gray;
+    color: white;
+}
+/* for id name */
+#pagecontent {
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
+    color: goldenrod;
+}
+/* for class name */
+.index {
+    color: blueviolet;
+    background: yellowgreen;
+}
+span#author {
+    text-transform: uppercase;
+}
+
+#hobbies ol li{                     /*  the tag inside the hobbies id */
+    color: rgb(255, 255, 0);
+    background: red;
+}
+#hobbies ul li{ 
+    color: rgb(255, 0, 238);
+}
+
+
+h3 + p {                            /* for the p just after the h3 tag */
+    background: black;
+    color: white;
+}
+
+p[class] {                              /* for every p that has a class  */
+    background: green;
+}
+
+p[class='abc'] {                              /* for every p that has a class name as abcdefg */
+    background: gold;
+}
+
+p[id] {                                 /* all p that has an id*/
+    background: blueviolet;
+}
+
